@@ -1,0 +1,18 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a device; this may
+# be used with UUID= as a more robust way to name devices that works even if
+# disks are added and removed. See fstab(5).
+#
+# <file system>             <mount point>  <type>  <options>  <dump>  <pass>
+UUID=B7BB-E965                            /boot/efi      vfat    umask=0077 0 2
+UUID=19b88994-9f02-49b8-9f95-0f78e443cd8f /              btrfs   subvol=@,defaults,noatime,space_cache,autodefrag,compress=zstd,ssd,commit=120 0 1
+UUID=19b88994-9f02-49b8-9f95-0f78e443cd8f /home          btrfs   subvol=@home,defaults,noatime,space_cache,autodefrag,compress=zstd,ssd,commit=120 0 2
+UUID=19b88994-9f02-49b8-9f95-0f78e443cd8f /root          btrfs   subvol=@root,defaults,noatime,space_cache,autodefrag,compress=zstd,ssd,commit=120 0 2
+UUID=19b88994-9f02-49b8-9f95-0f78e443cd8f /srv           btrfs   subvol=@srv,defaults,noatime,space_cache,autodefrag,compress=zstd,ssd,commit=120 0 2
+UUID=19b88994-9f02-49b8-9f95-0f78e443cd8f /var/cache     btrfs   subvol=@cache,defaults,noatime,space_cache,autodefrag,compress=zstd,ssd,commit=120 0 2
+UUID=19b88994-9f02-49b8-9f95-0f78e443cd8f /var/log       btrfs   subvol=@log,defaults,noatime,space_cache,autodefrag,compress=zstd,ssd,commit=120 0 2
+UUID=19b88994-9f02-49b8-9f95-0f78e443cd8f /var/tmp       btrfs   subvol=@tmp,defaults,noatime,space_cache,autodefrag,compress=zstd,ssd,commit=120 0 2
+UUID=9215827a-9283-441f-aa96-c4f7f41ce9c7 swap           swap    defaults,noatime 0 0
+tmpfs                                     /tmp           tmpfs   defaults,noatime,mode=1777 0 0
+/dev/disk/by-id/mmc-SS16G_0xb3944b69-part1 /mnt/mmc-SS16G_0xb3944b69-part1 auto nosuid,nodev,nofail,noauto,x-gvfs-show,rw 0 0
