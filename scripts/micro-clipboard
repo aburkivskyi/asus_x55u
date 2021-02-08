@@ -1,0 +1,61 @@
+#!/usr/bin/env bash
+#
+# Exit immediately if a command exits with a non-zero status.
+set -o errexit	# same as 'set -e'
+# Treat unset variables as an error when substituting.
+set -o nounset	# same as 'set -u'
+set -o pipefail	# the return value of a pipeline is the status of
+                # the last command to exit with a non-zero status,
+                # or zero if no command exited with a non-zero status
+                
+# Saving IFS and set it to new
+SAVEIFS=$IFS
+IFS="$(printf '\n\t')"
+
+MICRO_CONFIG_HOME="${XDG_CONFIG_HOME:=${HOME}/.config}/micro"
+MSETT="${MICRO_CONFIG_HOME}/settings.json"
+XRES="${HOME}/.Xresources"
+XDEF="${HOME}/.Xdefaults"
+XOPTION='XTerm*disallowedWindowOps: 20,21,SetXprop'
+MTERM="${TERM}"
+# MCLIPBOARD='terminal'
+
+##---Functions---##
+function isInstalled {
+	if [ $# -eq 0 ]; then
+		printf "%s\n" "[E] Function isInstalled bad arg(s)" >&2
+		return 2
+	fi
+	for pkg in "$@"; do
+		[ command -v "${pkg}" >/dev/null ]
+	done
+}
+
+function chooseMTerm {
+	printf "Your terminal is: %s\n" "${MTERM:-NONE}"
+	PS3="Select clipboard type: "
+	select MCLIPBOARD in 'internal' 'terminal' 'external'; do
+		printf "You choosed %s) %s\n" "${REPLY}" "${MCLIPBOARD}"
+		break;
+    done
+    case "$MCLIPBOARD" in
+    	internal)
+    			sed -E -i '^ {4}"clipboard": "([a-z]+)",$/s/\1/internal/'
+    	;;
+    	external)
+    	;;
+    	terminal)
+    	;;
+    	*)
+    	;;
+    esac		
+}
+##---MAIN---##
+function main {
+	# body
+	# ...
+
+	IFS="${SAVEIFS}"
+	return 0
+}
+main "${@}" || exit 1

@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+ALIASES="${HOME}/.aliases"
+
+function main {
+  [ $# -eq 2 ]
+  [[ -f "${ALIASES}" ]]
+  local name
+  local body
+  name="$1"
+  body="$2"
+  printf "alias %s='%s'\n" "${name}" "${body}" >> "${ALIASES}"
+  return 0
+}
+
+main "${@}" || exit 1
+
+# vim: ts=2 sw=2 et
+

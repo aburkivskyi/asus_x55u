@@ -1,0 +1,570 @@
+# Этот файл viminfo автоматически создан Vim 8.2.
+# Его можно (осторожно!) редактировать.
+
+# Viminfo version
+|1,4
+
+# Значение опции 'encoding' в момент записи файла
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Последний Шаблон поиска:
+~MSle0~/jump
+
+# Командная строка, история (начиная от свежего к старому):
+:q
+|2,0,1612822063,,"q"
+:wq
+|2,0,1612822057,,"wq"
+:q!
+|2,0,1612207919,,"q!"
+:vimtutor
+|2,0,1612207605,,"vimtutor"
+:help
+|2,0,1612207578,,"help"
+:m 4
+|2,0,1611265563,,"m 4"
+:m 13
+|2,0,1611265542,,"m 13"
+:w
+|2,0,1611262836,,"w"
+:! ls /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+|2,0,1611261205,,"! ls /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh"
+:colorscheme delek
+|2,0,1611261030,,"colorscheme delek"
+:colorscheme zellner
+|2,0,1611261018,,"colorscheme zellner"
+:colorscheme shine
+|2,0,1611261008,,"colorscheme shine"
+:colorscheme elflord
+|2,0,1611260997,,"colorscheme elflord"
+:colorscheme desert
+|2,0,1611260984,,"colorscheme desert"
+:colorscheme torte
+|2,0,1611260713,,"colorscheme torte"
+:set shell=/bin/zsh
+|2,0,1611260457,,"set shell=/bin/zsh"
+:set wildmenu
+|2,0,1611260250,,"set wildmenu"
+:set fsync
+|2,0,1611260085,,"set fsync"
+:colorscheme peachpuff
+|2,0,1611260063,,"colorscheme peachpuff"
+
+# Строка поиска, история (начиная от свежего к старому):
+?/jump
+|2,1,1612205033,47,"jump"
+?/decor
+|2,1,1612200815,47,"decor"
+?/zsh-s
+|2,1,1611261719,47,"zsh-s"
+?/sy
+|2,1,1611261088,47,"sy"
+?/modeline
+|2,1,1611260872,47,"modeline"
+
+# Выражение, история (начиная от свежего к старому):
+
+# Строка ввода, история (начиная от свежего к старому):
+
+# Строка отладки, история (начиная от свежего к старому):
+
+# Регистры:
+"0	LINE	0
+	APP_NAME="Script"
+|3,0,0,1,1,0,1612821816,"APP_NAME=\"Script\""
+""1	LINE	0
+	    fdate
+|3,1,1,1,1,0,1612822045,"    fdate"
+"2	LINE	0
+	    printf 'SHELL:\t%s  (%s)\n' "${_SHELL}" "${_SHELL_PATH}"
+|3,0,2,1,1,0,1612821702,"    printf 'SHELL:\\t%s  (%s)\\n' \"${_SHELL}\" \"${_SHELL_PATH}\""
+"3	LINE	0
+	  echo ""
+|3,0,3,1,1,0,1612821595,"  echo \"\""
+"4	LINE	0
+	  echo "${basename}"
+|3,0,4,1,1,0,1612821593,"  echo \"${basename}\""
+"5	LINE	0
+	  echo "${self}"
+|3,0,5,1,1,0,1612821592,"  echo \"${self}\""
+"6	LINE	0
+	echo "$basename"
+|3,0,6,1,1,0,1612821200,"echo \"$basename\""
+"7	LINE	0
+	echo "$basename"
+|3,0,7,1,1,0,1612821189,"echo \"$basename\""
+"8	LINE	0
+	echo "$self"
+|3,0,8,1,1,0,1612821187,"echo \"$self\""
+"9	LINE	0
+	_SHELL="$(sed -E 's/.*\/([a-z]+)$/\1/')"
+|3,0,9,1,1,0,1612820711,"_SHELL=\"$(sed -E 's/.*\\/([a-z]+)$/\\1/')\""
+"-	CHAR	0
+	_
+|3,0,36,0,1,0,1612821669,"_"
+
+# Глобальные отметки:
+'0  1  0  ~/scripts/script
+|4,48,1,0,1612822063,"~/scripts/script"
+'1  40  4  ~/scripts/script
+|4,49,40,4,1612822057,"~/scripts/script"
+'2  40  4  ~/scripts/script
+|4,50,40,4,1612822057,"~/scripts/script"
+'3  37  52  ~/scripts/script
+|4,51,37,52,1612822016,"~/scripts/script"
+'4  37  52  ~/scripts/script
+|4,52,37,52,1612822016,"~/scripts/script"
+'5  37  52  ~/scripts/script
+|4,53,37,52,1612822016,"~/scripts/script"
+'6  37  52  ~/scripts/script
+|4,54,37,52,1612822016,"~/scripts/script"
+'7  38  27  ~/scripts/script
+|4,55,38,27,1612821733,"~/scripts/script"
+'8  34  27  ~/scripts/script
+|4,56,34,27,1612821733,"~/scripts/script"
+'9  38  27  ~/scripts/script
+|4,57,38,27,1612821733,"~/scripts/script"
+
+# Список прыжков (сначала более свежие):
+-'  1  0  ~/scripts/script
+|4,39,1,0,1612822063,"~/scripts/script"
+-'  40  4  ~/scripts/script
+|4,39,40,4,1612822057,"~/scripts/script"
+-'  40  4  ~/scripts/script
+|4,39,40,4,1612822057,"~/scripts/script"
+-'  1  0  ~/scripts/script
+|4,39,1,0,1612822037,"~/scripts/script"
+-'  37  52  ~/scripts/script
+|4,39,37,52,1612822016,"~/scripts/script"
+-'  37  52  ~/scripts/script
+|4,39,37,52,1612822016,"~/scripts/script"
+-'  37  52  ~/scripts/script
+|4,39,37,52,1612822016,"~/scripts/script"
+-'  1  0  ~/scripts/script
+|4,39,1,0,1612821736,"~/scripts/script"
+-'  38  27  ~/scripts/script
+|4,39,38,27,1612821733,"~/scripts/script"
+-'  34  27  ~/scripts/script
+|4,39,34,27,1612821733,"~/scripts/script"
+-'  38  27  ~/scripts/script
+|4,39,38,27,1612821733,"~/scripts/script"
+-'  34  27  ~/scripts/script
+|4,39,34,27,1612821733,"~/scripts/script"
+-'  38  27  ~/scripts/script
+|4,39,38,27,1612821733,"~/scripts/script"
+-'  34  27  ~/scripts/script
+|4,39,34,27,1612821733,"~/scripts/script"
+-'  1  0  ~/scripts/script
+|4,39,1,0,1612821639,"~/scripts/script"
+-'  35  2  ~/scripts/script
+|4,39,35,2,1612821600,"~/scripts/script"
+-'  33  2  ~/scripts/script
+|4,39,33,2,1612821600,"~/scripts/script"
+-'  35  2  ~/scripts/script
+|4,39,35,2,1612821600,"~/scripts/script"
+-'  33  2  ~/scripts/script
+|4,39,33,2,1612821600,"~/scripts/script"
+-'  35  2  ~/scripts/script
+|4,39,35,2,1612821600,"~/scripts/script"
+-'  33  2  ~/scripts/script
+|4,39,33,2,1612821600,"~/scripts/script"
+-'  33  2  ~/scripts/script
+|4,39,33,2,1612821600,"~/scripts/script"
+-'  1  0  ~/scripts/script
+|4,39,1,0,1612821586,"~/scripts/script"
+-'  26  29  ~/scripts/script
+|4,39,26,29,1612821579,"~/scripts/script"
+-'  24  29  ~/scripts/script
+|4,39,24,29,1612821579,"~/scripts/script"
+-'  26  29  ~/scripts/script
+|4,39,26,29,1612821579,"~/scripts/script"
+-'  24  29  ~/scripts/script
+|4,39,24,29,1612821579,"~/scripts/script"
+-'  26  29  ~/scripts/script
+|4,39,26,29,1612821579,"~/scripts/script"
+-'  24  29  ~/scripts/script
+|4,39,24,29,1612821579,"~/scripts/script"
+-'  24  29  ~/scripts/script
+|4,39,24,29,1612821579,"~/scripts/script"
+-'  24  29  ~/scripts/script
+|4,39,24,29,1612821579,"~/scripts/script"
+-'  1  0  ~/scripts/script
+|4,39,1,0,1612821554,"~/scripts/script"
+-'  42  30  ~/scripts/script
+|4,39,42,30,1612821546,"~/scripts/script"
+-'  39  30  ~/scripts/script
+|4,39,39,30,1612821546,"~/scripts/script"
+-'  42  30  ~/scripts/script
+|4,39,42,30,1612821546,"~/scripts/script"
+-'  39  30  ~/scripts/script
+|4,39,39,30,1612821546,"~/scripts/script"
+-'  42  30  ~/scripts/script
+|4,39,42,30,1612821546,"~/scripts/script"
+-'  39  30  ~/scripts/script
+|4,39,39,30,1612821546,"~/scripts/script"
+-'  38  30  ~/scripts/script
+|4,39,38,30,1612821546,"~/scripts/script"
+-'  35  30  ~/scripts/script
+|4,39,35,30,1612821546,"~/scripts/script"
+-'  38  30  ~/scripts/script
+|4,39,38,30,1612821546,"~/scripts/script"
+-'  38  30  ~/scripts/script
+|4,39,38,30,1612821546,"~/scripts/script"
+-'  24  0  ~/scripts/script
+|4,39,24,0,1612821488,"~/scripts/script"
+-'  1  0  ~/scripts/script
+|4,39,1,0,1612821281,"~/scripts/script"
+-'  1  0  ~/scripts/script
+|4,39,1,0,1612821262,"~/scripts/script"
+-'  35  8  ~/scripts/script
+|4,39,35,8,1612821253,"~/scripts/script"
+-'  35  8  ~/scripts/script
+|4,39,35,8,1612821253,"~/scripts/script"
+-'  35  8  ~/scripts/script
+|4,39,35,8,1612821253,"~/scripts/script"
+-'  35  8  ~/scripts/script
+|4,39,35,8,1612821253,"~/scripts/script"
+-'  1  0  ~/scripts/script
+|4,39,1,0,1612821160,"~/scripts/script"
+-'  1  0  ~/scripts/script
+|4,39,1,0,1612820960,"~/scripts/script"
+-'  41  0  ~/scripts/script
+|4,39,41,0,1612820905,"~/scripts/script"
+-'  45  0  ~/scripts/script
+|4,39,45,0,1612820905,"~/scripts/script"
+-'  44  0  ~/scripts/script
+|4,39,44,0,1612820905,"~/scripts/script"
+-'  41  0  ~/scripts/script
+|4,39,41,0,1612820905,"~/scripts/script"
+-'  45  0  ~/scripts/script
+|4,39,45,0,1612820905,"~/scripts/script"
+-'  44  0  ~/scripts/script
+|4,39,44,0,1612820905,"~/scripts/script"
+-'  41  0  ~/scripts/script
+|4,39,41,0,1612820905,"~/scripts/script"
+-'  45  0  ~/scripts/script
+|4,39,45,0,1612820905,"~/scripts/script"
+-'  44  0  ~/scripts/script
+|4,39,44,0,1612820905,"~/scripts/script"
+-'  37  0  ~/scripts/script
+|4,39,37,0,1612820905,"~/scripts/script"
+-'  41  0  ~/scripts/script
+|4,39,41,0,1612820905,"~/scripts/script"
+-'  40  0  ~/scripts/script
+|4,39,40,0,1612820905,"~/scripts/script"
+-'  38  0  ~/scripts/script
+|4,39,38,0,1612820905,"~/scripts/script"
+-'  37  0  ~/scripts/script
+|4,39,37,0,1612820905,"~/scripts/script"
+-'  41  0  ~/scripts/script
+|4,39,41,0,1612820905,"~/scripts/script"
+-'  40  0  ~/scripts/script
+|4,39,40,0,1612820905,"~/scripts/script"
+-'  41  0  ~/scripts/script
+|4,39,41,0,1612820905,"~/scripts/script"
+-'  40  0  ~/scripts/script
+|4,39,40,0,1612820905,"~/scripts/script"
+-'  40  0  ~/scripts/script
+|4,39,40,0,1612820905,"~/scripts/script"
+-'  35  0  ~/scripts/script
+|4,39,35,0,1612820905,"~/scripts/script"
+-'  35  0  ~/scripts/script
+|4,39,35,0,1612820905,"~/scripts/script"
+-'  1  0  ~/scripts/script
+|4,39,1,0,1612820697,"~/scripts/script"
+-'  30  0  ~/scripts/script
+|4,39,30,0,1612820675,"~/scripts/script"
+-'  27  0  ~/scripts/script
+|4,39,27,0,1612820675,"~/scripts/script"
+-'  28  0  ~/scripts/script
+|4,39,28,0,1612820675,"~/scripts/script"
+-'  25  0  ~/scripts/script
+|4,39,25,0,1612820675,"~/scripts/script"
+-'  30  0  ~/scripts/script
+|4,39,30,0,1612820675,"~/scripts/script"
+-'  27  0  ~/scripts/script
+|4,39,27,0,1612820675,"~/scripts/script"
+-'  28  0  ~/scripts/script
+|4,39,28,0,1612820675,"~/scripts/script"
+-'  25  0  ~/scripts/script
+|4,39,25,0,1612820675,"~/scripts/script"
+-'  30  0  ~/scripts/script
+|4,39,30,0,1612820675,"~/scripts/script"
+-'  27  0  ~/scripts/script
+|4,39,27,0,1612820675,"~/scripts/script"
+-'  28  0  ~/scripts/script
+|4,39,28,0,1612820675,"~/scripts/script"
+-'  25  0  ~/scripts/script
+|4,39,25,0,1612820675,"~/scripts/script"
+-'  28  0  ~/scripts/script
+|4,39,28,0,1612820675,"~/scripts/script"
+-'  25  0  ~/scripts/script
+|4,39,25,0,1612820675,"~/scripts/script"
+-'  28  0  ~/scripts/script
+|4,39,28,0,1612820675,"~/scripts/script"
+-'  25  0  ~/scripts/script
+|4,39,25,0,1612820675,"~/scripts/script"
+-'  28  0  ~/scripts/script
+|4,39,28,0,1612820675,"~/scripts/script"
+-'  25  0  ~/scripts/script
+|4,39,25,0,1612820675,"~/scripts/script"
+-'  28  0  ~/scripts/script
+|4,39,28,0,1612820675,"~/scripts/script"
+-'  25  0  ~/scripts/script
+|4,39,25,0,1612820675,"~/scripts/script"
+-'  28  0  ~/scripts/script
+|4,39,28,0,1612820675,"~/scripts/script"
+-'  25  0  ~/scripts/script
+|4,39,25,0,1612820675,"~/scripts/script"
+-'  25  0  ~/scripts/script
+|4,39,25,0,1612820675,"~/scripts/script"
+-'  25  0  ~/scripts/script
+|4,39,25,0,1612820675,"~/scripts/script"
+-'  1  0  ~/scripts/script
+|4,39,1,0,1612820655,"~/scripts/script"
+-'  29  0  ~/scripts/script
+|4,39,29,0,1612820140,"~/scripts/script"
+-'  29  0  ~/scripts/script
+|4,39,29,0,1612820140,"~/scripts/script"
+
+# История местных отметок (от более свежих к старым):
+
+> ~/scripts/script
+	*	1612822061	0
+	"	1	0
+	^	37	53
+	.	40	0
+	+	28	0
+	+	22	10
+	+	31	0
+	+	28	5
+	+	29	39
+	+	28	0
+	+	38	59
+	+	42	0
+	+	28	0
+	+	35	0
+	+	35	1
+	+	35	15
+	+	35	20
+	+	35	8
+	+	38	22
+	+	38	23
+	+	38	40
+	+	25	4
+	+	26	0
+	+	38	30
+	+	26	29
+	+	35	0
+	+	25	0
+	+	26	23
+	+	38	0
+	+	39	30
+	+	38	28
+	+	23	17
+	+	24	14
+	+	23	8
+	+	36	0
+	+	37	52
+	+	39	0
+	+	40	0
+
+> ~/scripts/shebang_env.snip
+	*	1612820030	0
+	"	1	0
+	^	4	0
+	.	3	25
+	+	3	25
+
+> ~/scripts/script.bash
+	*	1612819491	0
+	"	46	18
+	^	46	19
+	.	47	0
+	+	22	76
+	+	24	0
+	+	23	2
+	+	24	8
+	+	33	53
+	+	42	1
+	+	44	23
+	+	47	0
+
+> ~/.functions.zsh
+	*	1612819134	0
+	"	4	0
+	^	4	1
+	.	4	0
+	+	1	17
+	+	4	0
+
+> ~/.local/bin/take
+	*	1612818840	0
+	"	9	11
+	^	9	12
+	.	9	11
+	+	4	44
+	+	11	11
+	+	8	28
+	+	13	0
+	+	13	1
+	+	15	23
+	+	9	11
+
+> /run/media/lm/VTOYEFI/grub/grub.cfg
+	*	1612804169	0
+	"	290	0
+
+> ~/grub/grub.cfg
+	*	1612803672	0
+	"	28	0
+	^	28	0
+	.	27	13
+	+	27	13
+
+> ~/.zshrc
+	*	1612799094	0
+	"	164	0
+	^	164	0
+	.	163	56
+	+	48	226
+	+	48	0
+	+	24	96
+	+	24	0
+	+	27	0
+	+	23	91
+	+	24	0
+	+	23	9
+	+	24	26
+	+	25	17
+	+	26	1
+	+	28	0
+	+	24	0
+	+	21	0
+	+	24	0
+	+	22	0
+	+	28	0
+	+	160	22
+	+	184	13
+	+	160	0
+	+	163	56
+
+> ~/Рабочий стол/grub/grub.cfg
+	*	1612383452	0
+	"	28	0
+	^	28	0
+	.	27	13
+	+	27	13
+
+> /tmp/tutorujGIfw
+	*	1612207791	0
+	"	102	39
+	.	94	67
+	+	94	67
+
+> /usr/share/vim/vim82/doc/help.txt
+	*	1612207605	0
+	"	53	0
+
+> ~/.config/kitty/kitty.conf
+	*	1612205362	0
+	"	1182	0
+	^	1182	0
+	.	1187	7
+	+	26	11
+	+	192	17
+	+	9	17
+	+	11	0
+	+	10	32
+	+	12	0
+	+	11	17
+	+	13	0
+	+	12	17
+	+	13	0
+	+	12	0
+	+	11	34
+	+	12	39
+	+	26	11
+	+	176	23
+	+	176	24
+	+	292	26
+	+	335	31
+	+	375	19
+	+	404	23
+	+	405	22
+	+	404	24
+	+	405	0
+	+	404	24
+	+	430	20
+	+	492	20
+	+	497	27
+	+	679	15
+	+	774	9
+	+	1041	42
+	+	1044	0
+	+	1043	14
+	+	1148	0
+	+	1146	31
+	+	1138	28
+	+	1145	8
+	+	1146	7
+	+	1187	38
+	+	1185	7
+	+	1186	7
+	+	1187	7
+
+> ~/.config/paru/paru.conf
+	*	1612204476	0
+	"	39	0
+	^	39	0
+	.	38	46
+	+	25	20
+	+	34	0
+	+	38	46
+
+> ~/.tmux.conf
+	*	1611265563	0
+	"	5	0
+	^	5	0
+	.	5	0
+	+	13	0
+	+	5	0
+
+> ~/.vimrc
+	*	1611262836	0
+	"	5	18
+	^	5	19
+	.	5	18
+	+	1	0
+	+	13	11
+	+	14	14
+	+	27	13
+	+	33	12
+	+	34	10
+	+	35	14
+	+	5	16
+	+	8	0
+	+	5	28
+	+	13	0
+	+	2	0
+	+	3	17
+	+	5	17
+	+	36	16
+	+	5	18
+
+> ~/.config/wayfire.ini
+	*	1611259802	0
+	"	274	0
+	.	179	0
+	+	179	0
+
+> /tmp/vimpager_6396/_usr_lib_node_modules_tidal-cli-client_README.md
+	*	1611254373	0
+	"	20	0
+
+> /tmp/vimpager_399275/stdin
+	*	1611251877	0
+	"	199	0
